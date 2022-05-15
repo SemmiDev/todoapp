@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="dev.sammi.MainActivity">
+
+    <ListView
+        android:id="@+id/listview_list"
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+    </ListView>
+
+    <ImageView
+        android:id="@+id/add_btn"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="155dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_add_circle_black_24dp"/>
+
+</LinearLayout>
